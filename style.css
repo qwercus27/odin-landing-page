@@ -14,22 +14,31 @@ body{
 }
 
 
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f372d;
+    color: #F9FAF8;
+    padding: 16px 2in;
+
+}
+
 .logo{
 
     color:#F9FAF8;
     font-size: 24px;
-    font-weight: bold;
-
-
+    
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-family:"Tahoma", sans-serif;
+    
 }
 
-.header{
-    display: flex;
-    justify-content: space-between;
-    background-color: #1F2937;
-    color: #F9FAF8;
-    padding: 8px 2in;
-
+.logo-image{
+    height: 64px;
+    width: auto;
 }
 
 .body{
@@ -38,8 +47,11 @@ body{
     flex-direction: column;
     justify-content: space-between;
     
-
 }
+
+
+
+
 
 .title-card{
 
@@ -48,7 +60,7 @@ body{
     justify-content: center;
     gap: 16px;
     padding: 1in 2in;
-    background-color: #1F2937;
+    background-color: #1f372d;
     color: #F9FAF8;
 }
 
@@ -76,15 +88,17 @@ body{
         justify-content: center;
         align-items: center;
         width: 200px;
-        height: 200px;
+        height: auto;
         background-color: gray;
+        border:3px solid #F9FAF8;
+        border-radius: 5px;
     }
 
 .sign-up{
 
     width: 128px;
     padding: 8px;
-    background-color: #3882F6;
+    background-color: #1a6e36;
     border-width: 1px;
     border-color: #F9FAF8;
     border-style: solid;
@@ -124,15 +138,15 @@ body{
             display: flex;
             flex-direction: column;
             align-items: center;
-            width: 160px;
+            width: 210px;
             gap: 8px;
         }
 
             .info-img{
 
-                width: 150px;
-                height: 150px;
-                border: 3px solid #3882F6;
+                width: 200px;
+                height: 200px;
+                border: 3px solid #1a6e36;
                 
                 border-radius: 10px;
             }
@@ -164,6 +178,7 @@ body{
         font-weight: bold;
         width: 60vw;
         justify-content: end;
+        font-size: 24px;
     }
 
 .call-to-action{
@@ -178,7 +193,7 @@ body{
         padding: 32px;
         display: flex;
         border-radius: 10px;
-        background-color: #3882F6;
+        background-color: #1a6e36;
         justify-content: center;
         gap: 16px;
         color: white;
