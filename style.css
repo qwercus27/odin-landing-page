@@ -6,10 +6,9 @@ body{
     justify-content: space-between;
 
     font-size: 18px;
-    font-family:"Arial", "Helvetica", sans-serif;
+    font-family: "Arial", "Helvetica", sans-serif;
     color: #1F2937;
 
-  
     margin: 0;
     
 }
@@ -26,10 +25,10 @@ body{
 
 .header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #1F2937;
     color: #F9FAF8;
-    padding: 8px;
+    padding: 8px 2in;
 
 }
 
@@ -48,7 +47,7 @@ body{
     align-items: center;
     justify-content: center;
     gap: 16px;
-    padding: 32px;
+    padding: 1in 2in;
     background-color: #1F2937;
     color: #F9FAF8;
 }
@@ -68,6 +67,7 @@ body{
         flex-direction: column;
         gap: 16px;
         
+        
     }
 
     .title-img{
@@ -82,21 +82,23 @@ body{
 
 .sign-up{
 
-    width: 100px;
-    padding: 5px;
+    width: 128px;
+    padding: 8px;
     background-color: #3882F6;
     border-width: 1px;
     border-color: #F9FAF8;
     border-style: solid;
     border-radius: 5px;
     color: #F9FAF8;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 .info-card{
     text-align: center;
     display: flex;
     flex-direction: column;
-    padding: 32px;
+    padding: 1in 2in;
 
 }
 
@@ -104,7 +106,8 @@ body{
 
         font-weight: 900;
         font-size: 36px;
-        padding: 16px;
+        margin-bottom: 32px;
+       
         
     }
 
@@ -121,14 +124,14 @@ body{
             display: flex;
             flex-direction: column;
             align-items: center;
-            width: 210px;
+            width: 160px;
             gap: 8px;
         }
 
             .info-img{
 
-                width: 200px;
-                height: 200px;
+                width: 150px;
+                height: 150px;
                 border: 3px solid #3882F6;
                 
                 border-radius: 10px;
@@ -140,7 +143,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 32px;
+    padding: 1in 2in;
     background-color: #E5E7EB;
     gap: 16px;
 
@@ -166,12 +169,12 @@ body{
 .call-to-action{
     display: flex;
     justify-content: center;
-    padding:32px;
+    padding: 1in 2in;
     
 }
 
     .action-box{
-        
+        margin: 0;
         padding: 32px;
         display: flex;
         border-radius: 10px;
@@ -182,7 +185,7 @@ body{
     }
 
     .action-title{
-        font-size: 16px;
+        font-size: 24px;
         font-weight: bold;
     }
 
